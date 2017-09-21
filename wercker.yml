@@ -20,7 +20,7 @@ deploy:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
         tag: $WERCKER_MAIN_PIPELINE_STARTED
-        repository: $DOCKER_REGISTRY/$IMAGE_NAME
+        repository: $DOCKER_REPO
         registry: https://registry.hub.docker.com
     - script:
         name: deploy
